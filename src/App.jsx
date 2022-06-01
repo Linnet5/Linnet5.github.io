@@ -81,7 +81,7 @@ function Introduction() {
           alignItems="flex-start"
         >
           <Box paddingTop={0}/>
-          <Image borderRadius = 'full' src="/images/portrait.jpg" alt='Dan Abramov' />
+          <Image borderRadius = 'full' src="/portrait.jpg" alt='Linus Karlsson' />
         </VStack>
       </Flex>
       <Center>
