@@ -39,6 +39,13 @@
         "Name": "VT - Bachelor Project",
         "Description": "We created a mobile game called Virtual Trainer which was developed for Android devices. The game used motion controls through the use of the built in gyro and accelerometer sensors that exist in modern phones. The project was under development for six months and during the development we used the agile development process Scrum.",
         "Type": "Unity, C#, Aseprite",
-        "Link": "https://github.com/Linnet5/Kandidatprojekt"}
+        "Link": "https://github.com/Linnet5/Kandidatprojekt"},
+    {
+        "Image": "/pair-dice.jpg",
+        "Name": "My Little Pair o' Dice",
+        "Description": "Game created for the 2022 GMTK game-jam. The game received an overall placement of 267 out of 6129 entries. The game combined top down shooting with strategic dice rolls through Yahtzee inspired mechanics.",
+        "Type": "Unity, C#, Aseprite, Cubase",
+        "Link": "https://davidstyrbjorn.itch.io/my-little-pair-o-dice"
+    }
     ]
 }
