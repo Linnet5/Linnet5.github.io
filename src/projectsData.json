@@ -43,7 +43,7 @@
     {
         "Image": "/pair-dice.jpg",
         "Name": "My Little Pair o' Dice",
-        "Description": "Game created for the 2022 GMTK game-jam. The game received an overall placement of 267 out of 6129 entries. The game combined top down shooting with strategic dice rolls through Yahtzee inspired mechanics.",
+        "Description": "Game created for the 2022 GMTK gamejam. The game received an overall placement of 267 out of 6129 entries. The game combined top down shooting with strategic dice rolls through Yahtzee inspired mechanics.",
         "Type": "Unity, C#, Aseprite, Cubase",
         "Link": "https://davidstyrbjorn.itch.io/my-little-pair-o-dice"
     }
