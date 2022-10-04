@@ -153,7 +153,7 @@ function CVModalEng() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return(
     <>
-    <Button onClick={onOpen} className = "button" bg="transparent" _hover={{ bg: '#2381e6' }}>View resume</Button>
+    <Button onClick={onOpen} className = "button" bg="transparent" _hover={{ bg: '#2381e6' }}>View Resume</Button>
     <Modal isOpen={isOpen} onClose={onClose} size = '3xl'>
       <ModalOverlay />
       <ModalContent h = "288mm" w ="100%">
