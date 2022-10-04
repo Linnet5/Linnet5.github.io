@@ -89,7 +89,7 @@ function Introduction() {
       </Center>
       <Center>
         <Link 
-          href="\src\cv.pdf"
+          href={cv}
           color="gray.400"
           fontSize="xs"
           paddingTop={1}
