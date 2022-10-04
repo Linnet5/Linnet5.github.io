@@ -72,7 +72,7 @@ function Introduction() {
         >
           <Text fontSize = '5xl' fontWeight="600" className = "reveal-text">Hello There!</Text>
           <Text fontSize = 'xl'>I am Linus Karlsson, a software developer.</Text> 
-          <Text>Welcome to my page! I love to work with creative solutions and to fully immerse myself in an exciting project. I am an ambitious and independent worker, but work at my absolut best ability in a motivated team. I know how to communicate and I have a positive attitude. Right now I am doing my master studies in engineering for media technology at Linköping University.</Text>
+          <Text>Welcome to my page! I love to work with creative solutions and to fully immerse myself in an exciting project. I am an ambitious and independent worker, but work at my absolute best ability in a motivated team. I know how to communicate and I have a positive attitude. Right now I am doing my master studies in engineering for media technology at Linköping University.</Text>
         </VStack>
         <VStack id = "profilePicture"
           w="25%" 
@@ -85,7 +85,6 @@ function Introduction() {
         </VStack>
       </Flex>
       <Center>
-        <CVModalSwe/>
         <CVModalEng/>
       </Center>
       <Center>
@@ -95,12 +94,6 @@ function Introduction() {
           fontSize="xs"
           paddingTop={1}
           px = {2}
-        > (Direct Link)</Link>
-        <Link 
-          href="\src\cv.pdf"
-          color="gray.400"
-          fontSize="xs"
-          paddingTop={1}
         > (Direct Link)</Link>
       </Center>
     </Box>
@@ -138,6 +131,7 @@ function PostComponent(props) {
   </WrapItem>);
 }
 
+/*
 function CVModalSwe() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return(
@@ -153,13 +147,13 @@ function CVModalSwe() {
     </Modal>
     </>
   );
-}
+}*/
 
 function CVModalEng() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return(
     <>
-    <Button onClick={onOpen} className = "button" bg="transparent" _hover={{ bg: '#2381e6' }}>View CV (Eng)</Button>
+    <Button onClick={onOpen} className = "button" bg="transparent" _hover={{ bg: '#2381e6' }}>View resume</Button>
     <Modal isOpen={isOpen} onClose={onClose} size = '3xl'>
       <ModalOverlay />
       <ModalContent h = "288mm" w ="100%">
