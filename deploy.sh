@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 # abort on errors
+(
 set -e
 
 # build
@@ -24,3 +25,4 @@ git commit -m 'deploy'
 git push -f git@github.com:Linnet5/linnet5.github.io.git main:gh-pages
 
 cd -
+)
