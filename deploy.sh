@@ -21,6 +21,6 @@ git commit -m 'deploy'
 #git push -f git@github.com:linnet5/linnet5.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Linnet5/Portfolio-website.git main:gh-pages
+git push -f git@github.com:Linnet5/linnet5.github.io.git main:gh-pages
 
 cd -
